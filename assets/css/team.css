@@ -41,6 +41,7 @@ body {
   display: flex;
   height: 100%;
   width: 100%;
+  font-size: 18px;
 }
 .slide {
   min-width: 100%;
@@ -107,8 +108,11 @@ body {
 }
 hr {
   width: 70px;
-  background: #4d8cf5;
-  border: 1px solid #4d8cf5;
+  height: 8px;
+  border: none;
+	background: #b92b27;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1565C0, #b92b27);
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -120,14 +124,16 @@ hr {
 }
 .namingConv {
   align-items: center;
+  /* font-size: 18px; */
 }
 .namingConv > div {
   text-align: center;
 }
-.namingConv h3 {
+.namingConv h2 {
   margin: 8px 0;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
+
 .TeamCol {
   width: 200px;
   height: 200px;

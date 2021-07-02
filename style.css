@@ -277,8 +277,12 @@ hr {
 .pos-setter {
     display: block;
     position: absolute;
-    top: 10%;
+    top: 30%;
     left : 5%;
+}
+
+.social-links-modifier {
+    margin-bottom: 10px;
 }
 
 /*What we Do */
